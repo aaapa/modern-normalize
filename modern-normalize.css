@@ -14,8 +14,9 @@
 }
 
 ::selection {
+  color: whitesmoke;
   text-decoration: underline;
-  background-color: rgb(255 255 255 / 20%);
+  background-color: rgb(22 22 22 / 20%);
 }
 
 ::-webkit-scrollbar {
@@ -54,8 +55,8 @@ input,
 button,
 select,
 option,
-label:has([for]),
 details summary,
+label:has([for]),
 ::-webkit-inner-spin-button,
 ::-webkit-calendar-picker-indicator {
   border: unset;
@@ -63,33 +64,6 @@ details summary,
   cursor: pointer;
   background: unset;
 }
-
-/* FireFox */
-
-option {
-  font-size: 100%;
-  cursor: pointer;
-  color: currentColor;
-  background-color: unset;
-}
-
-select {
-  border: unset;
-  font-size: 100%;
-  cursor: pointer;
-  color: currentColor;
-  background-color: unset;
-}
-
-button {
-  border: unset;
-  font-size: 100%;
-  cursor: pointer;
-  color: currentColor;
-  background-color: unset;
-}
-
-/* FireFox */
 
 :is(
   input,
@@ -99,7 +73,7 @@ button {
   optgroup, 
   textarea):disabled {
     cursor: default;
-  }
+}
 
 input:where(
   [type="tel"],
@@ -112,7 +86,6 @@ input:where(
   ),
 textarea,
 [contenteditable] {
-  cursor: text;
   caret-color: rgb(27 127 204 / 80%);
 }
 
@@ -134,7 +107,7 @@ a {
 }
 
 [hidden] {
-  display: none;
+  display: none !important;
 }
 
 template {
