@@ -6,6 +6,7 @@
   text-wrap: balance;
   box-sizing: border-box;
   transition: all 0.15s ease-out;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :focus-visible {
