@@ -14,6 +14,11 @@
   outline: 3px solid rgb(27 127 204 / 80%);
 }
 
+[tabindex]:focus-visible {
+  transition: unset;
+  outline: 3px solid rgb(27 127 204 / 80%);
+}
+
 ::selection {
   text-decoration: underline;
   background-color: rgb(255 255 255 / 20%);
@@ -59,10 +64,7 @@ label:has([for]),
 details summary,
 ::-webkit-inner-spin-button,
 ::-webkit-calendar-picker-indicator {
-  border: unset;
-  font-size: 100%;
   cursor: pointer;
-  background: unset;
 }
 
 :is(
