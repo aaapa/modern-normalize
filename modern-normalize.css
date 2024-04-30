@@ -21,7 +21,7 @@
 
 ::selection {
   text-decoration: underline;
-  background-color: rgb(255 255 255 / 20%);
+  background-color: rgba(230, 134, 134, 0.2);
 }
 
 ::-webkit-scrollbar {
@@ -61,7 +61,7 @@ input,
 button,
 select,
 option,
-label:has([for]),
+label[for],
 details summary,
 ::-webkit-inner-spin-button,
 ::-webkit-calendar-picker-indicator {
