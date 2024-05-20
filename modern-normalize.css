@@ -3,6 +3,7 @@
 *::after {
   margin: unset;
   padding: unset;
+	font-size: 100%;
   font-family: inherit;
   font-weight: inherit;
   text-wrap: balance;
@@ -97,4 +98,8 @@ textarea,
 
 [contenteditable] {
   border: 1px solid rgb(27 127 204 / 80%);
+}
+
+menu, ol, ul {
+	list-style: none;
 }
