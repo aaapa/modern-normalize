@@ -3,7 +3,7 @@
 *::after {
   margin: unset;
   padding: unset;
-	font-size: 100%;
+  font-size: 100%;
   font-family: inherit;
   font-weight: inherit;
   text-wrap: balance;
@@ -102,4 +102,13 @@ textarea,
 
 menu, ol, ul {
 	list-style: none;
+}
+
+a {
+  text-decoration: unset;
+}
+
+button {
+  border: 0;
+  background: unset;
 }
